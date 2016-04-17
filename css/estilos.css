@@ -1,0 +1,167 @@
+/* Start screen styles */
+
+#logo
+{
+  color: black;
+  font-family: 'Bree Serif', serif;
+  font-size: 100px;
+  text-align: center;
+}
+
+#mensaje
+{
+  font-family: 'Bree Serif', serif;
+  font-size: 70px;
+  padding-top:20%;
+  text-align: center;
+}
+
+#start {
+  font-family: 'Ranchers', cursive;
+  font-size:50px;
+  padding-top:1%;
+  text-align: center;
+
+}
+
+#start:hover, #start-over:hover {
+	cursor: pointer;
+	color:red;
+}
+
+ #final_juego {
+  display:block;
+  position:relative;
+  width:100%;
+  height:100%;
+  background-color: #FFFFFF;
+  border-bottom: 1px solid black;
+}
+
+/* Main game styles */
+#bloques{
+  position:absolute;
+  display:block;
+  display:none;
+  height:100%;
+  width:100%;
+}
+
+#bloque_1{
+  left:380px;
+  top: 80px;
+  border-color:#0f7ac5;
+  cursor: pointer;
+}
+
+#bloque_2{
+  left:530px;
+  top:80px;
+  border-color:#14a88e;
+  cursor: pointer;
+}
+
+#bloque_3{
+  left:680px;
+  top:80px;
+  border-color:#3fdf29;
+  cursor: pointer;
+}
+
+#bloque_4{
+  left:830px;
+  top:80px;
+  border-color:#aa2918;
+  cursor: pointer;
+}
+
+#bloque_5{
+  left:380px;
+  top:220px;
+  border-color:#dc30da;
+  cursor: pointer;
+}
+
+#bloque_6{
+  left:530px;
+  top:220px;
+  border-color:#901fe7;
+  cursor: pointer;
+}
+
+#bloque_7{
+  left:680px;
+  top:220px;
+  border-color:orange;
+  cursor: pointer;
+}
+
+#bloque_8{
+  left:830px;
+  top:220px;
+  border-color:#dfe609;
+  cursor: pointer;
+}
+
+#bloque_9{
+  left:380px;
+  top:360px;
+  border-color:gray;
+  cursor: pointer;
+}
+
+#bloque_10{
+  left:530px;
+  top:360px;
+  border-color:brown;
+  cursor: pointer;
+}
+
+#bloque_12{
+  left:680px;
+  top:360px;
+  border-color:black;
+  cursor: pointer;
+}
+
+#bloque_11{
+  left:830px;
+  top:360px;
+  border-color:black;
+}
+
+
+
+#puntaje{
+  position:fixed;
+  left:1000px;
+  top:250px;
+}
+
+#notificacion {
+  position: relative;
+  top:80px;
+  font-family: helvetica;
+  font-size: 30px;
+}
+
+.bloque{
+  border:1px solid #000;
+  position:absolute;
+  width:130px;
+  height:130px;
+  margin-bottom: 10px;
+}
+
+.level, .score {
+  font-family: helvetica;
+  font-size: 30px;
+}
+
+.fail {
+    color: red;
+}
+
+.success {
+    color:#168d10
+}
